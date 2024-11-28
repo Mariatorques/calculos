@@ -7,3 +7,11 @@ fun main() {
     var circunferencia =  2 * radio * 3.14
     println("El área del círculo es igual a $area y la circunferencia es $circunferencia")
 }
+   fun areaRectangulo(){
+       println("Introduzca la altura del rectangulo")
+       var altura=readln().toInt()
+       println("Introduzca la base del cuadrado")
+       var base=readln().toInt()
+       var area=altura*base
+       println("El área del rectangulo es $area")
+   }
